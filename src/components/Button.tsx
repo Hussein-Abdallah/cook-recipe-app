@@ -1,20 +1,27 @@
 import { TouchableOpacity, StyleSheet } from "react-native";
+import type { ViewStyle } from "react-native";
 import { colors } from "../config";
-import { Text } from "./Text";
+import { AppText } from "./AppText";
 
 interface Props {
   title: string;
   onPress: () => void;
   color?: "primary" | "secondary" | "danger";
+  style?: ViewStyle;
 }
 
-export function Button({ title, onPress, color = "primary" }: Props) {
+export function Button({
+  title,
+  onPress,
+  color = "primary",
+  style,
+}: Props): JSX.Element {
   return (
     <TouchableOpacity
-      style={[styles.Button, { backgroundColor: colors[color] }]}
+      style={[styles.Button, { backgroundColor: colors[color] }, style]}
       onPress={onPress}
     >
-      <Text style={styles.Text}>{title}</Text>
+      <AppText style={styles.Text}>{title}</AppText>
     </TouchableOpacity>
   );
 }

@@ -1,1 +1,1 @@
-export { Text } from "./Text";
+export { AppText } from "./AppText";

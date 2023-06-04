@@ -1,10 +1,10 @@
 import { Image, ImageBackground, View, StyleSheet } from "react-native";
 
-import { Text } from "../components/Text";
+import { AppText } from "../components";
 import { styles as defaultStyles } from "../config/styles";
 import { Button } from "../components/Button";
 
-export function Welcome() {
+export function WelcomeScreen() {
   return (
     <ImageBackground
       source={require("../assets/background.jpg")}
@@ -13,8 +13,10 @@ export function Welcome() {
       <View style={styles.BackDropContainer} />
       <Image style={styles.Logo} source={require("../assets/logo.png")} />
       <View style={styles.WelcomeContainer}>
-        <Text style={styles.Text}>Cook Like A Chef</Text>
-        <Text style={styles.SubText}>Delicious Recipes at Your Fingertips</Text>
+        <AppText style={styles.Text}>Cook Like A Chef</AppText>
+        <AppText style={styles.SubText}>
+          Delicious Recipes at Your Fingertips
+        </AppText>
         <Button
           title="Get Started"
           onPress={() => console.log("Get Started")}
@@ -30,9 +32,7 @@ const styles = StyleSheet.create({
     justifyContent: "flex-end",
   },
   BackDropContainer: {
-    position: "absolute",
-    height: "100%",
-    width: "100%",
+    ...StyleSheet.absoluteFillObject,
     backgroundColor: "rgba(0,0,0,0.5)",
   },
   Logo: {
@@ -49,7 +49,7 @@ const styles = StyleSheet.create({
   Text: {
     color: defaultStyles.colors.white,
     fontSize: 60,
-    fontWeight: 900,
+    fontWeight: "900",
     marginBottom: 16,
   },
   SubText: {
