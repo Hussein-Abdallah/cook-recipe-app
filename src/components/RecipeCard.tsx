@@ -20,7 +20,7 @@ export function RecipeCard({ title, image, onPress }: RecipeCardProps) {
           resizeMode="cover"
           style={styles.Image}
           source={{
-            uri: image,
+            uri: `https://res.cloudinary.com/dv6n26bjx/image/upload/h_350/v1685994008/Cook-App${image}`,
           }}
         />
         <View style={styles.ImageBackDrop}></View>

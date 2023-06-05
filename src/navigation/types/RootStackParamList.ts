@@ -19,7 +19,7 @@ type Recipe = {
 };
 
 export type RootStackParamList = {
-  Recipes: undefined;
+  Recipes: { title?: string };
   Recipe: { recipe: Recipe };
   // Add more screen names and their corresponding parameter types here
 };

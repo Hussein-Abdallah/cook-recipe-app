@@ -6,13 +6,20 @@ interface Props {
 }
 
 export function Header({ title }: Props) {
-  return <Text style={styles.Header}>{title ? title : "Cook Recipe App"}</Text>;
+  return (
+    <Text
+      style={[
+        styles.Header,
+        { fontSize: title ? 18 : 26, fontWeight: title ? "normal" : "bold" },
+      ]}
+    >
+      {title ?? "Cook Recipe App"}
+    </Text>
+  );
 }
 
 const styles = StyleSheet.create({
   Header: {
-    fontSize: 26,
-    fontWeight: "bold",
     color: colors.primary,
   },
 });

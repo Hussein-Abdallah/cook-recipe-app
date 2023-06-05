@@ -10,17 +10,10 @@ export function AppNavigator() {
   return (
     <Tab.Navigator
       screenOptions={{
-        headerTitle: () => <Header />,
-        headerTitleAlign: "center",
+        headerShown: false,
       }}
     >
-      <Tab.Screen
-        name="Home"
-        component={RecipesNavigator}
-        options={{
-          headerShown: false,
-        }}
-      />
+      <Tab.Screen name="Home" component={RecipesNavigator} />
       <Tab.Screen name="Explore" component={CategoriesScreen} />
     </Tab.Navigator>
   );
