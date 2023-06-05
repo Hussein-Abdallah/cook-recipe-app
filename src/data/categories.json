@@ -1,0 +1,84 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Main Course",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Main_Course_unzxvp.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Appetizer",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Appetizer_clvvqy.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Salad",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Salad_srk7th.webp"
+    },
+    {
+      "id": 4,
+      "name": "Soup",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Soup_yyj7bw.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Sandwich",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Sandwich_esb8lh.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Pasta",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Pasta_lddrcf.png"
+    },
+    {
+      "id": 7,
+      "name": "Rice",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Rice_anskhe.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Pizza",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Pizza_cjgkbm.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Seafood",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Seafood_hhglqx.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Meat",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Meat_soxcos.jpg"
+    },
+    {
+      "id": 11,
+      "name": "Poultry",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Poultry_efzaok.jpg"
+    },
+    {
+      "id": 12,
+      "name": "Vegetarian",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Vegetarian_curvep.webp"
+    },
+    {
+      "id": 13,
+      "name": "Snack",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994748/Cook-App/Categories/Snack_uty6dk.webp"
+    },
+    {
+      "id": 14,
+      "name": "Breakfast/Brunch",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Breakfast_Brunch_qxmsbk.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Dessert",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Dessert_p0gk2n.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Baking",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994747/Cook-App/Categories/Baking_h7obu4.jpg"
+    }
+  ]
+}

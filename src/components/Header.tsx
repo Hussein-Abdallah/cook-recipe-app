@@ -11,9 +11,8 @@ export function Header({ title }: Props) {
 
 const styles = StyleSheet.create({
   Header: {
-    fontSize: 30,
+    fontSize: 26,
     fontWeight: "bold",
     color: colors.primary,
-    textAlign: "left",
   },
 });

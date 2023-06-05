@@ -1,28 +1,27 @@
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 
-import { HomeScreen } from "../screens";
+import { CategoriesScreen } from "../screens";
 import { Header } from "../components";
+import { RecipesNavigator } from "./RecipesNavigator";
 
 const Tab = createBottomTabNavigator();
 
 export function AppNavigator() {
   return (
-    <Tab.Navigator>
+    <Tab.Navigator
+      screenOptions={{
+        headerTitle: () => <Header />,
+        headerTitleAlign: "center",
+      }}
+    >
       <Tab.Screen
         name="Home"
-        component={HomeScreen}
-        options={{
-          headerTitle: () => <Header />,
-          headerTitleAlign: "left",
-        }}
-      />
-      <Tab.Screen
-        name="Explore"
-        component={HomeScreen}
+        component={RecipesNavigator}
         options={{
           headerShown: false,
         }}
       />
+      <Tab.Screen name="Explore" component={CategoriesScreen} />
     </Tab.Navigator>
   );
 }

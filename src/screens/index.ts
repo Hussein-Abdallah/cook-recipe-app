@@ -1,2 +1,4 @@
 export { WelcomeScreen } from "./WelcomeScreen";
-export { HomeScreen } from "./HomeScreen";
+export { RecipesListScreen } from "./RecipesListScreen";
+export { RecipeScreen } from "./RecipeScreen";
+export { CategoriesScreen } from "./CategoriesScreen";

@@ -1,0 +1,293 @@
+{
+  "recipes": [
+    {
+      "id": 1,
+      "title": "Spaghetti Bolognese",
+      "category": 1,
+      "cuisine": "Italian",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "400g canned tomatoes",
+        "2 tablespoons tomato paste",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "300g spaghetti"
+      ],
+      "directions": "1. Heat olive oil in a large pan.\n2. Add onions and garlic, and cook until translucent.\n3. Add ground beef and cook until browned.\n4. Stir in canned tomatoes, tomato paste, oregano, basil, salt, and pepper.\n5. Simmer for 20 minutes.\n6. Cook spaghetti according to package instructions.\n7. Serve the Bolognese sauce over cooked spaghetti.",
+      "nutrition": {
+        "calories": 450,
+        "carbs": 50,
+        "protein": 30,
+        "fat": 15
+      },
+      "preparation_time": 15,
+      "cooking_time": 40,
+      "difficulty": "Medium",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994009/Cook-App/Recipes/Spaghetti_Bolognese_gdpg0v.jpg",
+      "created_at": "2022-11-05T15:10:00Z"
+    },
+    {
+      "id": 2,
+      "title": "Chicken Tikka Masala",
+      "category": 1,
+      "cuisine": "Indian",
+      "ingredients": [
+        "500g chicken breast, cut into pieces",
+        "1 cup plain yogurt",
+        "2 tablespoons lemon juice",
+        "2 tablespoons tikka masala spice mix",
+        "1 tablespoon vegetable oil",
+        "1 onion, finely chopped",
+        "2 cloves garlic, minced",
+        "1 can (400g) crushed tomatoes",
+        "1 cup heavy cream",
+        "Salt to taste",
+        "Chopped cilantro for garnish"
+      ],
+      "directions": "1. In a bowl, combine yogurt, lemon juice, and tikka masala spice mix.\n2. Add chicken pieces to the marinade and let it marinate for at least 1 hour.\n3. Heat oil in a pan and cook onions and garlic until soft.\n4. Add marinated chicken and cook until browned.\n5. Stir in crushed tomatoes and simmer for 20 minutes.\n6. Add heavy cream and salt, and simmer for an additional 10 minutes.\n7. Garnish with chopped cilantro and serve with rice or naan bread.",
+      "nutrition": {
+        "calories": 380,
+        "carbs": 15,
+        "protein": 25,
+        "fat": 20
+      },
+      "preparation_time": 60,
+      "cooking_time": 30,
+      "difficulty": "Medium",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Chicken_Tikka_Masala_tfraai.jpg",
+      "created_at": "2022-12-05T15:10:00Z"
+    },
+    {
+      "id": 3,
+      "title": "Caprese Salad",
+      "category": 2,
+      "cuisine": "Italian",
+      "ingredients": [
+        "2 ripe tomatoes",
+        "250g fresh mozzarella cheese",
+        "Handful of fresh basil leaves",
+        "2 tablespoons balsamic vinegar",
+        "2 tablespoons extra virgin olive oil",
+        "Salt and pepper to taste"
+      ],
+      "directions": "1. Slice tomatoes and fresh mozzarella cheese.\n2. Arrange tomato slices and mozzarella slices on a plate.\n3. Place fresh basil leaves on top.\n4. Drizzle balsamic vinegar and olive oil over the salad.\n5. Sprinkle with salt and pepper to taste.",
+      "nutrition": {
+        "calories": 180,
+        "carbs": 6,
+        "protein": 10,
+        "fat": 12
+      },
+      "preparation_time": 10,
+      "cooking_time": 0,
+      "difficulty": "Easy",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Caprese_Salad_am4y8l.webp",
+      "created_at": "2023-05-10T15:10:00Z"
+    },
+    {
+      "id": 4,
+      "title": "Beef Tacos",
+      "category": 1,
+      "cuisine": "Mexican",
+      "ingredients": [
+        "500g ground beef",
+        "1 onion, chopped",
+        "2 cloves garlic, minced",
+        "1 tablespoon chili powder",
+        "1 teaspoon cumin",
+        "1 teaspoon paprika",
+        "Salt and pepper to taste",
+        "8 taco shells",
+        "Taco toppings: lettuce, tomato, cheese, salsa, etc."
+      ],
+      "directions": "1. Heat oil in a pan and sauté onions and garlic until soft.\n2. Add ground beef and cook until browned.\n3. Stir in chili powder, cumin, paprika, salt, and pepper.\n4. Simmer for 10 minutes.\n5. Heat taco shells according to package instructions.\n6. Fill taco shells with beef mixture.\n7. Top with desired taco toppings.",
+      "nutrition": {
+        "calories": 350,
+        "carbs": 20,
+        "protein": 25,
+        "fat": 20
+      },
+      "preparation_time": 15,
+      "cooking_time": 20,
+      "difficulty": "Easy",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Beef_Tacos_t5rvbw.jpg",
+      "created_at": "2023-02-15T15:10:00Z"
+    },
+    {
+      "id": 5,
+      "title": "Mediterranean Quinoa Salad",
+      "category": 3,
+      "cuisine": "Mediterranean",
+      "ingredients": [
+        "1 cup quinoa",
+        "2 cups water",
+        "1 cucumber, diced",
+        "1 cup cherry tomatoes, halved",
+        "1/2 cup Kalamata olives, pitted and halved",
+        "1/2 cup crumbled feta cheese",
+        "1/4 cup chopped red onion",
+        "1/4 cup chopped fresh parsley",
+        "2 tablespoons extra virgin olive oil",
+        "2 tablespoons lemon juice",
+        "Salt and pepper to taste"
+      ],
+      "directions": "1. Rinse quinoa under cold water.\n2. In a saucepan, combine quinoa and water and bring to a boil.\n3. Reduce heat, cover, and simmer for 15-20 minutes until quinoa is cooked.\n4. In a large bowl, combine cooked quinoa, cucumber, cherry tomatoes, Kalamata olives, feta cheese, red onion, and parsley.\n5. In a small bowl, whisk together olive oil, lemon juice, salt, and pepper.\n6. Drizzle the dressing over the quinoa salad and toss to combine.",
+      "nutrition": {
+        "calories": 280,
+        "carbs": 35,
+        "protein": 8,
+        "fat": 12
+      },
+      "preparation_time": 10,
+      "cooking_time": 20,
+      "difficulty": "Easy",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Mediterranean_Quinoa_Salad_mtwjqy.jpg",
+      "created_at": "2023-02-05T15:10:00Z"
+    },
+    {
+      "id": 6,
+      "title": "Chicken Parmesan",
+      "category": 1,
+      "cuisine": "Italian",
+      "ingredients": [
+        "2 boneless, skinless chicken breasts",
+        "1/2 cup bread crumbs",
+        "1/4 cup grated Parmesan cheese",
+        "1 teaspoon dried oregano",
+        "1 teaspoon dried basil",
+        "Salt and pepper to taste",
+        "1/4 cup all-purpose flour",
+        "1 egg, beaten",
+        "1/4 cup marinara sauce",
+        "1/2 cup shredded mozzarella cheese"
+      ],
+      "directions": "1. Preheat oven to 400°F (200°C).\n2. In a shallow dish, combine bread crumbs, Parmesan cheese, dried oregano, dried basil, salt, and pepper.\n3. Dredge chicken breasts in flour, dip in beaten egg, and coat with bread crumb mixture.\n4. Place coated chicken breasts on a baking sheet.\n5. Bake for 20 minutes.\n6. Spoon marinara sauce over chicken breasts and sprinkle with shredded mozzarella cheese.\n7. Bake for an additional 10 minutes or until cheese is melted and bubbly.",
+      "nutrition": {
+        "calories": 320,
+        "carbs": 20,
+        "protein": 35,
+        "fat": 10
+      },
+      "preparation_time": 15,
+      "cooking_time": 30,
+      "difficulty": "Medium",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Chicken_Parmesan_kl43tk.jpg",
+      "created_at": "2023-01-05T15:10:00Z"
+    },
+    {
+      "id": 7,
+      "title": "Greek Gyro",
+      "category": 1,
+      "cuisine": "Greek",
+      "ingredients": [
+        "500g lamb or chicken, thinly sliced",
+        "1/4 cup Greek yogurt",
+        "2 tablespoons lemon juice",
+        "2 cloves garlic, minced",
+        "1 teaspoon dried oregano",
+        "Salt and pepper to taste",
+        "4 pita bread",
+        "Sliced tomatoes, onions, and tzatziki sauce for serving"
+      ],
+      "directions": "1. In a bowl, combine Greek yogurt, lemon juice, minced garlic, dried oregano, salt, and pepper.\n2. Add sliced lamb or chicken to the marinade and let it marinate for at least 1 hour.\n3. Heat a grill or pan over medium heat.\n4. Cook the marinated meat until cooked through.\n5. Warm pita bread on the grill or in the oven.\n6. Assemble the gyro by placing the cooked meat on the pita bread and topping with sliced tomatoes, onions, and tzatziki sauce.\n7. Roll up the pita bread tightly and serve.",
+      "nutrition": {
+        "calories": 400,
+        "carbs": 30,
+        "protein": 25,
+        "fat": 18
+      },
+      "preparation_time": 60,
+      "cooking_time": 15,
+      "difficulty": "Medium",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Greek_Gyro_ndrl1k.jpg",
+      "created_at": "2022-01-05T15:10:00Z"
+    },
+    {
+      "id": 8,
+      "title": "Chocolate Chip Cookies",
+      "category": 16,
+      "cuisine": "American",
+      "ingredients": [
+        "1 cup unsalted butter, softened",
+        "1 cup granulated sugar",
+        "1 cup packed brown sugar",
+        "2 large eggs",
+        "1 teaspoon vanilla extract",
+        "3 cups all-purpose flour",
+        "1 teaspoon baking soda",
+        "1/2 teaspoon salt",
+        "2 cups chocolate chips"
+      ],
+      "directions": "1. Preheat oven to 375°F (190°C).\n2. In a large bowl, cream together butter, granulated sugar, and brown sugar until smooth.\n3. Beat in eggs, one at a time, then stir in vanilla extract.\n4. In a separate bowl, combine flour, baking soda, and salt.\n5. Gradually add the dry ingredients to the butter mixture and mix well.\n6. Stir in chocolate chips.\n7. Drop rounded tablespoons of dough onto ungreased baking sheets.\n8. Bake for 9-11 minutes or until golden brown.\n9. Allow cookies to cool on baking sheets for 5 minutes before transferring to wire racks to cool completely.",
+      "nutrition": {
+        "calories": 150,
+        "carbs": 20,
+        "protein": 2,
+        "fat": 7
+      },
+      "preparation_time": 20,
+      "cooking_time": 10,
+      "difficulty": "Easy",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994009/Cook-App/Recipes/Chocolate_Chip_Cookies_kuxynd.jpg",
+      "created_at": "2023-04-05T15:10:00Z"
+    },
+    {
+      "id": 9,
+      "title": "Caesar Salad",
+      "category": 3,
+      "cuisine": "International",
+      "ingredients": [
+        "1 head romaine lettuce, torn into bite-sized pieces",
+        "1/2 cup grated Parmesan cheese",
+        "1/2 cup croutons",
+        "Caesar dressing"
+      ],
+      "directions": "1. In a large bowl, combine romaine lettuce, grated Parmesan cheese, and croutons.\n2. Drizzle Caesar dressing over the salad.\n3. Toss to coat the lettuce evenly with the dressing.",
+      "nutrition": {
+        "calories": 200,
+        "carbs": 10,
+        "protein": 8,
+        "fat": 15
+      },
+      "preparation_time": 10,
+      "cooking_time": 0,
+      "difficulty": "Easy",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Caesar_Salad_iuxliz.jpg",
+      "created_at": "2022-06-05T15:10:00Z"
+    },
+    {
+      "id": 10,
+      "title": "Beef Stir-Fry",
+      "category": 1,
+      "cuisine": "Asian",
+      "ingredients": [
+        "500g beef sirloin, thinly sliced",
+        "2 tablespoons soy sauce",
+        "2 tablespoons oyster sauce",
+        "1 tablespoon cornstarch",
+        "1 tablespoon vegetable oil",
+        "1 onion, sliced",
+        "1 bell pepper, sliced",
+        "1 carrot, julienned",
+        "2 cloves garlic, minced",
+        "1 teaspoon grated ginger",
+        "Salt and pepper to taste",
+        "Cooked rice for serving"
+      ],
+      "directions": "1. In a bowl, combine soy sauce, oyster sauce, and cornstarch.\n2. Add sliced beef to the marinade and let it marinate for 15 minutes.\n3. Heat oil in a wok or large skillet over high heat.\n4. Stir-fry marinated beef until browned. Remove from the pan and set aside.\n5. In the same pan, stir-fry onion, bell pepper, carrot, garlic, and ginger until vegetables are tender-crisp.\n6. Return the cooked beef to the pan and season with salt and pepper.\n7. Stir-fry for an additional 2-3 minutes.\n8. Serve the beef stir-fry over cooked rice.",
+      "nutrition": {
+        "calories": 380,
+        "carbs": 25,
+        "protein": 30,
+        "fat": 15
+      },
+      "preparation_time": 20,
+      "cooking_time": 15,
+      "difficulty": "Medium",
+      "image": "https://res.cloudinary.com/dv6n26bjx/image/upload/v1685994008/Cook-App/Recipes/Beef_Stir-Fry_hjwglx.jpg",
+      "created_at": "2023-06-02T15:10:00Z"
+    }
+  ]
+}

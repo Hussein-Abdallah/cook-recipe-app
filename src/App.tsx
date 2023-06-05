@@ -29,7 +29,7 @@ export default function App() {
   return (
     <NavigationContainer theme={navigationTheme}>
       <View style={styles.container}>
-        <StatusBar style="light" />
+        <StatusBar style={showWelcomeScreen ? "light" : "dark"} />
         {showWelcomeScreen ? (
           <WelcomeScreen onFinish={() => setShowWelcomeScreen(false)} />
         ) : (
