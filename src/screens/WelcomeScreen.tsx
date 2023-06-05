@@ -2,8 +2,10 @@ import { Image, ImageBackground, View, StyleSheet } from "react-native";
 
 import { AppText, AppButton } from "../components";
 import { styles as defaultStyles } from "../config/styles";
-
-export function WelcomeScreen() {
+import { useNavigation } from "@react-navigation/native";
+import { setItem } from "../navigation/storage";
+export function WelcomeScreen({ onFinish }: { onFinish: () => void }) {
+  const navigation = useNavigation();
   return (
     <ImageBackground
       source={require("../assets/background.jpg")}
@@ -18,7 +20,10 @@ export function WelcomeScreen() {
         </AppText>
         <AppButton
           title="Get Started"
-          onPress={() => console.log("Get Started")}
+          onPress={() => {
+            setItem("isFirstTime", "false");
+            onFinish();
+          }}
         />
       </View>
     </ImageBackground>
