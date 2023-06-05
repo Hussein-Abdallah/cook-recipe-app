@@ -1,8 +1,7 @@
 import { Image, ImageBackground, View, StyleSheet } from "react-native";
 
-import { AppText } from "../components";
+import { AppText, AppButton } from "../components";
 import { styles as defaultStyles } from "../config/styles";
-import { Button } from "../components/Button";
 
 export function WelcomeScreen() {
   return (
@@ -17,7 +16,7 @@ export function WelcomeScreen() {
         <AppText style={styles.SubText}>
           Delicious Recipes at Your Fingertips
         </AppText>
-        <Button
+        <AppButton
           title="Get Started"
           onPress={() => console.log("Get Started")}
         />
@@ -50,12 +49,12 @@ const styles = StyleSheet.create({
     color: defaultStyles.colors.white,
     fontSize: 60,
     fontWeight: "900",
-    marginBottom: 16,
+    marginVertical: 16,
   },
   SubText: {
     fontSize: 30,
     color: defaultStyles.colors.white,
-    marginBottom: 16,
+    marginVertical: 16,
     fontWeight: "600",
   },
 });

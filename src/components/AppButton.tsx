@@ -10,7 +10,7 @@ interface Props {
   style?: ViewStyle;
 }
 
-export function Button({
+export function AppButton({
   title,
   onPress,
   color = "primary",
