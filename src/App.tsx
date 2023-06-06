@@ -6,6 +6,7 @@ import { AppNavigator } from "./navigation";
 import { navigationTheme } from "./navigation";
 import { useEffect, useState } from "react";
 import { getItem } from "./navigation/storage";
+import { RecipesNavigator } from "./navigation/RecipesNavigator";
 
 export default function App() {
   const [showWelcomeScreen, setShowWelcomeScreen] = useState(false);
@@ -33,7 +34,7 @@ export default function App() {
         {showWelcomeScreen ? (
           <WelcomeScreen onFinish={() => setShowWelcomeScreen(false)} />
         ) : (
-          <AppNavigator />
+          <RecipesNavigator />
         )}
       </View>
     </NavigationContainer>

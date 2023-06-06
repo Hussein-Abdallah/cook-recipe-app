@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { StyleSheet, Text, View, FlatList } from "react-native";
+import { StyleSheet, View, FlatList } from "react-native";
 import type { StackNavigationProp } from "@react-navigation/stack";
+import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
 
 import { recipes } from "../data/recipes.json";
 import { RootStackParamList } from "../types";
-import { RecipesList, TabContent, TabNavItems } from "../components";
+import { AppText, RecipesList, TabContent, TabNavItems } from "../components";
 import { fetchLatestRecipes } from "../utilities/fetchData";
 
 type RecipesListScreenProps = {
@@ -26,7 +27,7 @@ export function RecipesListScreen({ navigation }: RecipesListScreenProps) {
 
   const recentRecipes = fetchLatestRecipes(recipes, 5);
   return (
-    <View style={styles.container}>
+    <View style={[styles.container]}>
       <View>
         <FlatList
           numColumns={2}
@@ -44,12 +45,12 @@ export function RecipesListScreen({ navigation }: RecipesListScreenProps) {
           extraData={items}
         />
       </View>
-      <View>
+      <View style={styles.TabContent}>
         <TabContent id={items[0].id} activeTab={activeTab}>
           <RecipesList recipes={recentRecipes} navigation={navigation} />
         </TabContent>
         <TabContent id={items[1].id} activeTab={activeTab}>
-          <Text>Categories</Text>
+          <AppText>Categories</AppText>
         </TabContent>
       </View>
     </View>
@@ -57,5 +58,10 @@ export function RecipesListScreen({ navigation }: RecipesListScreenProps) {
 }
 
 const styles = StyleSheet.create({
-  container: {},
+  container: {
+    flex: 1,
+  },
+  TabContent: {
+    flex: 1,
+  },
 });

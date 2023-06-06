@@ -1,5 +1,6 @@
-import { View, StyleSheet, Text } from "react-native";
+import { StyleSheet } from "react-native";
 import { colors } from "../config";
+import { AppText } from "./AppText";
 
 interface Props {
   title?: string;
@@ -7,14 +8,14 @@ interface Props {
 
 export function Header({ title }: Props) {
   return (
-    <Text
+    <AppText
       style={[
         styles.Header,
         { fontSize: title ? 18 : 26, fontWeight: title ? "normal" : "bold" },
       ]}
     >
       {title ?? "Cook Recipe App"}
-    </Text>
+    </AppText>
   );
 }
 

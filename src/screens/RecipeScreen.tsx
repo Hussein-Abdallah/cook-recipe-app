@@ -1,4 +1,4 @@
-import { View, StyleSheet, ScrollView, Text } from "react-native";
+import { StyleSheet, ScrollView } from "react-native";
 import { useNavigation } from "@react-navigation/native";
 import type { RouteProp } from "@react-navigation/native";
 import { RootStackParamList } from "../types";
@@ -12,7 +12,7 @@ export function RecipeScreen({ route }: Props) {
   return (
     <ScrollView showsHorizontalScrollIndicator>
       <AppText>RecipeScreen</AppText>
-      <Text>{route?.params.recipe.title}</Text>
+      <AppText>{`${route?.params.recipe.title}`}</AppText>
     </ScrollView>
   );
 }

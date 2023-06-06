@@ -2,10 +2,10 @@ import {
   View,
   StyleSheet,
   Image,
-  Text,
   TouchableWithoutFeedback,
 } from "react-native";
 import { colors } from "../config";
+import { AppText } from "./AppText";
 
 interface RecipeCardProps {
   title: string;
@@ -25,7 +25,7 @@ export function RecipeCard({ title, image, onPress }: RecipeCardProps) {
         />
         <View style={styles.ImageBackDrop}></View>
         <View style={styles.TextContainer}>
-          <Text style={styles.Title}>{title}</Text>
+          <AppText style={styles.Title}>{title}</AppText>
         </View>
       </View>
     </TouchableWithoutFeedback>

@@ -1,9 +1,10 @@
-import { View, StyleSheet, Text } from "react-native";
+import { View, StyleSheet } from "react-native";
+import { AppText } from "../components";
 
 export function CategoriesScreen() {
   return (
     <View style={styles.container}>
-      <Text>CategoriesScreen</Text>
+      <AppText>CategoriesScreen</AppText>
     </View>
   );
 }

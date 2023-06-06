@@ -1,6 +1,5 @@
 import { StatusBar } from "expo-status-bar";
 import {
-  View,
   StyleSheet,
   SafeAreaView,
   ViewStyle,
