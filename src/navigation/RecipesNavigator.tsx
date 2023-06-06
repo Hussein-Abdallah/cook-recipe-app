@@ -4,8 +4,8 @@ import { RecipesListScreen } from "../screens";
 import { RecipeScreen } from "../screens";
 import { colors } from "../config";
 import { Header } from "../components";
-import type { RouteProp } from "@react-navigation/native";
-import { RootStackParamList } from "./types/RootStackParamList";
+
+import type { RootStackParamList } from "../types";
 
 const Stack = createStackNavigator();
 
