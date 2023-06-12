@@ -18,10 +18,31 @@
       ],
       "directions": "1. Heat olive oil in a large pan.\n2. Add onions and garlic, and cook until translucent.\n3. Add ground beef and cook until browned.\n4. Stir in canned tomatoes, tomato paste, oregano, basil, salt, and pepper.\n5. Simmer for 20 minutes.\n6. Cook spaghetti according to package instructions.\n7. Serve the Bolognese sauce over cooked spaghetti.",
       "nutrition": {
+        "serving_size": "1 plate",
         "calories": 450,
-        "carbs": 50,
-        "protein": 30,
-        "fat": 15
+        "fat": {
+          "total": 15,
+          "saturated_fat": 6,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 2,
+          "monounsaturated_fat": 6
+        },
+        "cholesterol": 50,
+        "sodium": 800,
+        "carbohydrates": {
+          "total": 40,
+          "dietary_fiber": 5,
+          "sugars": 8
+        },
+        "protein": 20,
+        "vitamins": {
+          "vitamin_d": 2,
+          "calcium": 20,
+          "iron": 10,
+          "potassium": 8,
+          "vitamin_a": 4,
+          "vitamin_c": 10
+        }
       },
       "preparation_time": 15,
       "cooking_time": 40,
@@ -49,10 +70,31 @@
       ],
       "directions": "1. In a bowl, combine yogurt, lemon juice, and tikka masala spice mix.\n2. Add chicken pieces to the marinade and let it marinate for at least 1 hour.\n3. Heat oil in a pan and cook onions and garlic until soft.\n4. Add marinated chicken and cook until browned.\n5. Stir in crushed tomatoes and simmer for 20 minutes.\n6. Add heavy cream and salt, and simmer for an additional 10 minutes.\n7. Garnish with chopped cilantro and serve with rice or naan bread.",
       "nutrition": {
-        "calories": 380,
-        "carbs": 15,
+        "serving_size": "1 serving",
+        "calories": 400,
+        "fat": {
+          "total": 15,
+          "saturated_fat": 5,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 2,
+          "monounsaturated_fat": 7
+        },
+        "cholesterol": 80,
+        "sodium": 800,
+        "carbohydrates": {
+          "total": 30,
+          "dietary_fiber": 5,
+          "sugars": 8
+        },
         "protein": 25,
-        "fat": 20
+        "vitamins": {
+          "vitamin_d": 2,
+          "calcium": 15,
+          "iron": 10,
+          "potassium": 10,
+          "vitamin_a": 6,
+          "vitamin_c": 15
+        }
       },
       "preparation_time": 60,
       "cooking_time": 30,
@@ -75,10 +117,31 @@
       ],
       "directions": "1. Slice tomatoes and fresh mozzarella cheese.\n2. Arrange tomato slices and mozzarella slices on a plate.\n3. Place fresh basil leaves on top.\n4. Drizzle balsamic vinegar and olive oil over the salad.\n5. Sprinkle with salt and pepper to taste.",
       "nutrition": {
-        "calories": 180,
-        "carbs": 6,
+        "serving_size": "1 serving",
+        "calories": 200,
+        "fat": {
+          "total": 15,
+          "saturated_fat": 7,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 1,
+          "monounsaturated_fat": 7
+        },
+        "cholesterol": 10,
+        "sodium": 300,
+        "carbohydrates": {
+          "total": 5,
+          "dietary_fiber": 1,
+          "sugars": 3
+        },
         "protein": 10,
-        "fat": 12
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 20,
+          "iron": 2,
+          "potassium": 150,
+          "vitamin_a": 30,
+          "vitamin_c": 20
+        }
       },
       "preparation_time": 10,
       "cooking_time": 0,
@@ -104,10 +167,31 @@
       ],
       "directions": "1. Heat oil in a pan and sauté onions and garlic until soft.\n2. Add ground beef and cook until browned.\n3. Stir in chili powder, cumin, paprika, salt, and pepper.\n4. Simmer for 10 minutes.\n5. Heat taco shells according to package instructions.\n6. Fill taco shells with beef mixture.\n7. Top with desired taco toppings.",
       "nutrition": {
-        "calories": 350,
-        "carbs": 20,
-        "protein": 25,
-        "fat": 20
+        "serving_size": "1 taco",
+        "calories": 250,
+        "fat": {
+          "total": 12,
+          "saturated_fat": 4,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 1,
+          "monounsaturated_fat": 6
+        },
+        "cholesterol": 40,
+        "sodium": 350,
+        "carbohydrates": {
+          "total": 20,
+          "dietary_fiber": 3,
+          "sugars": 2
+        },
+        "protein": 15,
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 10,
+          "iron": 8,
+          "potassium": 200,
+          "vitamin_a": 2,
+          "vitamin_c": 4
+        }
       },
       "preparation_time": 15,
       "cooking_time": 20,
@@ -135,10 +219,31 @@
       ],
       "directions": "1. Rinse quinoa under cold water.\n2. In a saucepan, combine quinoa and water and bring to a boil.\n3. Reduce heat, cover, and simmer for 15-20 minutes until quinoa is cooked.\n4. In a large bowl, combine cooked quinoa, cucumber, cherry tomatoes, Kalamata olives, feta cheese, red onion, and parsley.\n5. In a small bowl, whisk together olive oil, lemon juice, salt, and pepper.\n6. Drizzle the dressing over the quinoa salad and toss to combine.",
       "nutrition": {
-        "calories": 280,
-        "carbs": 35,
-        "protein": 8,
-        "fat": 12
+        "serving_size": "1 serving",
+        "calories": 300,
+        "fat": {
+          "total": 12,
+          "saturated_fat": 2,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 3,
+          "monounsaturated_fat": 7
+        },
+        "cholesterol": 0,
+        "sodium": 400,
+        "carbohydrates": {
+          "total": 35,
+          "dietary_fiber": 6,
+          "sugars": 5
+        },
+        "protein": 10,
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 6,
+          "iron": 8,
+          "potassium": 400,
+          "vitamin_a": 20,
+          "vitamin_c": 30
+        }
       },
       "preparation_time": 10,
       "cooking_time": 20,
@@ -165,10 +270,31 @@
       ],
       "directions": "1. Preheat oven to 400°F (200°C).\n2. In a shallow dish, combine bread crumbs, Parmesan cheese, dried oregano, dried basil, salt, and pepper.\n3. Dredge chicken breasts in flour, dip in beaten egg, and coat with bread crumb mixture.\n4. Place coated chicken breasts on a baking sheet.\n5. Bake for 20 minutes.\n6. Spoon marinara sauce over chicken breasts and sprinkle with shredded mozzarella cheese.\n7. Bake for an additional 10 minutes or until cheese is melted and bubbly.",
       "nutrition": {
-        "calories": 320,
-        "carbs": 20,
+        "serving_size": "1 serving",
+        "calories": 400,
+        "fat": {
+          "total": 20,
+          "saturated_fat": 8,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 2,
+          "monounsaturated_fat": 8
+        },
+        "cholesterol": 80,
+        "sodium": 800,
+        "carbohydrates": {
+          "total": 20,
+          "dietary_fiber": 3,
+          "sugars": 5
+        },
         "protein": 35,
-        "fat": 10
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 20,
+          "iron": 15,
+          "potassium": 300,
+          "vitamin_a": 10,
+          "vitamin_c": 6
+        }
       },
       "preparation_time": 15,
       "cooking_time": 30,
@@ -193,10 +319,31 @@
       ],
       "directions": "1. In a bowl, combine Greek yogurt, lemon juice, minced garlic, dried oregano, salt, and pepper.\n2. Add sliced lamb or chicken to the marinade and let it marinate for at least 1 hour.\n3. Heat a grill or pan over medium heat.\n4. Cook the marinated meat until cooked through.\n5. Warm pita bread on the grill or in the oven.\n6. Assemble the gyro by placing the cooked meat on the pita bread and topping with sliced tomatoes, onions, and tzatziki sauce.\n7. Roll up the pita bread tightly and serve.",
       "nutrition": {
-        "calories": 400,
-        "carbs": 30,
-        "protein": 25,
-        "fat": 18
+        "serving_size": "1 gyro",
+        "calories": 500,
+        "fat": {
+          "total": 25,
+          "saturated_fat": 10,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 2,
+          "monounsaturated_fat": 10
+        },
+        "cholesterol": 60,
+        "sodium": 1000,
+        "carbohydrates": {
+          "total": 40,
+          "dietary_fiber": 3,
+          "sugars": 5
+        },
+        "protein": 30,
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 15,
+          "iron": 10,
+          "potassium": 400,
+          "vitamin_a": 2,
+          "vitamin_c": 8
+        }
       },
       "preparation_time": 60,
       "cooking_time": 15,
@@ -222,10 +369,31 @@
       ],
       "directions": "1. Preheat oven to 375°F (190°C).\n2. In a large bowl, cream together butter, granulated sugar, and brown sugar until smooth.\n3. Beat in eggs, one at a time, then stir in vanilla extract.\n4. In a separate bowl, combine flour, baking soda, and salt.\n5. Gradually add the dry ingredients to the butter mixture and mix well.\n6. Stir in chocolate chips.\n7. Drop rounded tablespoons of dough onto ungreased baking sheets.\n8. Bake for 9-11 minutes or until golden brown.\n9. Allow cookies to cool on baking sheets for 5 minutes before transferring to wire racks to cool completely.",
       "nutrition": {
+        "serving_size": "1 cookie",
         "calories": 150,
-        "carbs": 20,
+        "fat": {
+          "total": 8,
+          "saturated_fat": 4,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 1,
+          "monounsaturated_fat": 3
+        },
+        "cholesterol": 20,
+        "sodium": 100,
+        "carbohydrates": {
+          "total": 18,
+          "dietary_fiber": 1,
+          "sugars": 10
+        },
         "protein": 2,
-        "fat": 7
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 2,
+          "iron": 4,
+          "potassium": 50,
+          "vitamin_a": 0,
+          "vitamin_c": 0
+        }
       },
       "preparation_time": 20,
       "cooking_time": 10,
@@ -246,10 +414,31 @@
       ],
       "directions": "1. In a large bowl, combine romaine lettuce, grated Parmesan cheese, and croutons.\n2. Drizzle Caesar dressing over the salad.\n3. Toss to coat the lettuce evenly with the dressing.",
       "nutrition": {
-        "calories": 200,
-        "carbs": 10,
-        "protein": 8,
-        "fat": 15
+        "serving_size": "1 serving",
+        "calories": 250,
+        "fat": {
+          "total": 20,
+          "saturated_fat": 3,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 10,
+          "monounsaturated_fat": 7
+        },
+        "cholesterol": 15,
+        "sodium": 500,
+        "carbohydrates": {
+          "total": 10,
+          "dietary_fiber": 2,
+          "sugars": 2
+        },
+        "protein": 5,
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 15,
+          "iron": 4,
+          "potassium": 200,
+          "vitamin_a": 70,
+          "vitamin_c": 8
+        }
       },
       "preparation_time": 10,
       "cooking_time": 0,
@@ -278,10 +467,31 @@
       ],
       "directions": "1. In a bowl, combine soy sauce, oyster sauce, and cornstarch.\n2. Add sliced beef to the marinade and let it marinate for 15 minutes.\n3. Heat oil in a wok or large skillet over high heat.\n4. Stir-fry marinated beef until browned. Remove from the pan and set aside.\n5. In the same pan, stir-fry onion, bell pepper, carrot, garlic, and ginger until vegetables are tender-crisp.\n6. Return the cooked beef to the pan and season with salt and pepper.\n7. Stir-fry for an additional 2-3 minutes.\n8. Serve the beef stir-fry over cooked rice.",
       "nutrition": {
-        "calories": 380,
-        "carbs": 25,
+        "serving_size": "1 serving",
+        "calories": 400,
+        "fat": {
+          "total": 15,
+          "saturated_fat": 4,
+          "trans_fat": 0,
+          "polyunsaturated_fat": 2,
+          "monounsaturated_fat": 8
+        },
+        "cholesterol": 60,
+        "sodium": 800,
+        "carbohydrates": {
+          "total": 20,
+          "dietary_fiber": 3,
+          "sugars": 5
+        },
         "protein": 30,
-        "fat": 15
+        "vitamins": {
+          "vitamin_d": 0,
+          "calcium": 4,
+          "iron": 20,
+          "potassium": 500,
+          "vitamin_a": 6,
+          "vitamin_c": 15
+        }
       },
       "preparation_time": 20,
       "cooking_time": 15,

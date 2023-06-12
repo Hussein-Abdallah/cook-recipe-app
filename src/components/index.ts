@@ -4,3 +4,8 @@ export { Header } from "./Header";
 export { RecipeCard } from "./RecipeCard";
 export { RecipesList } from "./RecipesList";
 export { TabContent, TabNavItems } from "./Tab";
+export { Ingredients } from "./Ingredients";
+export { Directions } from "./Directions";
+export { Nutrition } from "./Nutrition";
+export { Divider } from "./Divider";
+export { NutritionContainer } from "./NutritionContainer";

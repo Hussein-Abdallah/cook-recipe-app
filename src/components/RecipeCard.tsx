@@ -10,7 +10,7 @@ import { AppText } from "./AppText";
 interface RecipeCardProps {
   title: string;
   image: string;
-  onPress: () => void;
+  onPress?: () => void;
 }
 export function RecipeCard({ title, image, onPress }: RecipeCardProps) {
   return (

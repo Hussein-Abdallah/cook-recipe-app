@@ -3,7 +3,7 @@ import type { TextProps } from "react-native";
 import { styles } from "../config/styles";
 
 interface Props extends TextProps {
-  children: string;
+  children: TextProps["children"];
 }
 export function AppText({
   children,

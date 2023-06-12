@@ -34,7 +34,6 @@ export function TabNavItems({
           borderBottomColor: colors.secondary,
           borderBottomWidth: 4,
         },
-        { backgroundColor: colors.light },
       ]}
       onPress={clickHandler}
     >
@@ -52,11 +51,12 @@ const styles = StyleSheet.create({
     padding: 10,
     justifyContent: "center",
     alignItems: "center",
-    width: "50%",
+    flex: 1,
     backgroundColor: colors.white,
   },
   title: {
     fontSize: 18,
     fontWeight: "bold",
+    flex: 1,
   },
 });
