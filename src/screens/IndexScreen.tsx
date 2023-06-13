@@ -1,14 +1,18 @@
 import { useState } from "react";
 import { StyleSheet, View, FlatList } from "react-native";
 import type { StackNavigationProp } from "@react-navigation/stack";
-import { useBottomTabBarHeight } from "@react-navigation/bottom-tabs";
 
 import { recipes } from "../data/recipes.json";
 import { RootStackParamList } from "../types";
-import { AppText, RecipesList, TabContent, TabNavItems } from "../components";
+import {
+  Categories,
+  RecipesList,
+  TabContent,
+  TabNavItems,
+} from "../components";
 import { fetchLatestRecipes } from "../utilities/fetchData";
 
-type RecipesListScreenProps = {
+type Props = {
   navigation: StackNavigationProp<RootStackParamList, "Recipes">;
 };
 
@@ -22,7 +26,7 @@ const items: TabItem[] = [
   { id: 2, title: "Explore" },
 ];
 
-export function RecipesListScreen({ navigation }: RecipesListScreenProps) {
+export function IndexScreen({ navigation }: Props) {
   const [activeTab, setActiveTab] = useState(1);
 
   const recentRecipes = fetchLatestRecipes(recipes, 5);
@@ -50,7 +54,7 @@ export function RecipesListScreen({ navigation }: RecipesListScreenProps) {
           <RecipesList recipes={recentRecipes} navigation={navigation} />
         </TabContent>
         <TabContent id={items[1].id} activeTab={activeTab}>
-          <AppText>Categories</AppText>
+          <Categories />
         </TabContent>
       </View>
     </View>

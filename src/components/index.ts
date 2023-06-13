@@ -9,3 +9,4 @@ export { Directions } from "./Directions";
 export { Nutrition } from "./Nutrition";
 export { Divider } from "./Divider";
 export { NutritionContainer } from "./NutritionContainer";
+export { Categories } from "./Categories";

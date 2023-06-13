@@ -42,5 +42,6 @@ export type Recipe = {
 export type RootStackParamList = {
   Recipes: { title?: string };
   Recipe: { recipe: Recipe };
+  Category: { id: number; name: string };
   // Add more screen names and their corresponding parameter types here
 };

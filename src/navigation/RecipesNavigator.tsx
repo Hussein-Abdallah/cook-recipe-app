@@ -1,6 +1,5 @@
 import { createStackNavigator } from "@react-navigation/stack";
-
-import { RecipesListScreen } from "../screens";
+import { CategoryScreen, IndexScreen } from "../screens";
 import { RecipeScreen } from "../screens";
 import { colors } from "../config";
 import { Header } from "../components";
@@ -22,7 +21,7 @@ export function RecipesNavigator() {
         headerTitle: () => <Header />,
       }}
     >
-      <Stack.Screen name="Recipes" component={RecipesListScreen} />
+      <Stack.Screen name="Recipes" component={IndexScreen} />
       <Stack.Screen
         name="Recipe"
         component={RecipeScreen}
@@ -30,6 +29,16 @@ export function RecipesNavigator() {
           headerTitle: () => {
             const routeParams = route.params as RootStackParamList["Recipe"];
             return <Header title={routeParams.recipe.title} />;
+          },
+        })}
+      />
+      <Stack.Screen
+        name="Category"
+        component={CategoryScreen}
+        options={({ route }) => ({
+          headerTitle: () => {
+            const routeParams = route.params as RootStackParamList["Category"];
+            return <Header title={routeParams.name} />;
           },
         })}
       />
